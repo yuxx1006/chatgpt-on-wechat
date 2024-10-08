@@ -13,11 +13,15 @@ from voice.factory import create_voice
 class Bridge(object):
     def __init__(self):
         self.btype = {
-            "chat": const.CHATGPT,
+            "chat": conf().get("bot_type", const.CHATGPT),
             "voice_to_text": conf().get("voice_to_text", "openai"),
             "text_to_voice": conf().get("text_to_voice", "google"),
             "translate": conf().get("translate", "baidu"),
         }
+        # check if using ollama service
+        if conf().get("use_ollama_server", False):
+            self.btype["chat"] = const.OLLAMA_SERVER
+
         # 这边取配置的模型
         bot_type = conf().get("bot_type")
         if bot_type:
