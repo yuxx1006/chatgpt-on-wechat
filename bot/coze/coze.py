@@ -63,8 +63,9 @@ class CozeBot(Bot):
     def reply_text(self, session: str, retry_count=0):
         try:
             # logger.info("[COZE] model={}".format(session.model))
+            # this api is not working
             url = "https://api.coze.cn/open_api/v2/chat"
-            # url = "https://api.coze.cn/v3/chat"
+            #url = "https://api.coze.cn/v3/chat"
             headers = {
                 'Content-Type': 'application/json',
                 'Authorization': 'Bearer ' + COZE_API_KEY

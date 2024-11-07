@@ -1,0 +1,42 @@
+{
+  "channel_type": "wechatcom_app",
+  "wechatcom_corp_id": "wwb4ac42d3a09edf23",
+  "wechatcomapp_port": 9898,
+  "wechatcomapp_agent_id": "1000073",
+  "wechatcomapp_secret": "rldd1cm0l8pdx2qjpraMHRZwzdnovVMt5HE_FEdusTY",
+  "wechatcomapp_token": "AGp95ykYiJcW",
+  "wechatcomapp_aes_key": "x1Cfo9PVHinaH3dxznwS7LV1EYVuao4GDRV5SnaK4VI",
+  "model": "assistw",
+  "use_ollama_server": false,
+  "bot_type":"chatGPT",
+  "open_ai_api_key": "pat_W3dp9wZtyIsZQuiHy5ymZOgCHntBNobodyqH74m3tXxTemmTynuJg2XHJJE7CnkU",
+  "open_ai_api_base":"http://127.0.0.1:5000/v1",
+  "claude_api_key": "YOUR API KEY",
+  "text_to_image": "dall-e-2",
+  "voice_to_text": "openai",
+  "text_to_voice": "openai",
+  "hot_reload": false,
+  "single_chat_prefix": [""],
+  "single_chat_reply_prefix": "",
+  "group_chat_prefix": [
+    "@AI员工助手"
+  ],
+  "group_name_white_list": [
+    "ChatGPT测试群",
+    "AI测试群"
+  ],
+  "image_create_prefix": [
+    "画"
+  ],
+  "speech_recognition": true,
+  "group_speech_recognition": false,
+  "voice_reply_voice": false,
+  "conversation_max_tokens": 2500,
+  "expires_in_seconds": 3600,
+  "character_desc": "角色 \n你是松山医院的企业智能助手，统筹多名不同部门的AI员工，包括财务部、行政部、品牌部、商保部、信息技术部、后勤服务部。你可以高效的调度相应的员工，帮助用户解决有关松山医院的各种需求。",
+  "temperature": 0.1,
+  "subscribe_msg": "我是松山医院的AI员工助手。有什么可以帮助您的吗？",
+  "use_linkai": false,
+  "linkai_api_key": "",
+  "linkai_app_code": ""
+}

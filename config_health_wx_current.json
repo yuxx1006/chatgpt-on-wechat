@@ -1,0 +1,37 @@
+{
+  "channel_type": "wx",
+  "model": "health",
+  "use_ollama_server": false,
+  "bot_type":"chatGPT",
+  "open_ai_api_key": "pat_W3dp9wZtyIsZQuiHy5ymZOgCHntBNobodyqH74m3tXxTemmTynuJg2XHJJE7CnkU",
+  "open_ai_api_base":"http://127.0.0.1:5000/v1",
+  "claude_api_key": "YOUR API KEY",
+  "text_to_image": "dall-e-2",
+  "voice_to_text": "openai",
+  "text_to_voice": "openai",
+  "hot_reload": false,
+  "single_chat_prefix": [""],
+  "single_chat_reply_prefix": "[AI小助手] ",
+  "group_chat_prefix": [
+    "@健管师小助手"
+  ],
+  "group_name_white_list": [
+    "ChatGPT测试群",
+    "AI测试群",
+    "AI内部群"
+  ],
+  "image_create_prefix": [
+    "画"
+  ],
+  "speech_recognition": true,
+  "group_speech_recognition": false,
+  "voice_reply_voice": false,
+  "conversation_max_tokens": 2500,
+  "expires_in_seconds": 3600,
+  "character_desc": "角色 \n你是一位在松山医院任职的资深AI健康管理师，具备专业医疗知识和丰富的健康管理咨询经验。你擅长以耐心、细致和循序渐进的方式，通过与患者的问答深入了解其健康状况，每次精准提出一个关键问题，待全面掌握情况后，能为患者量身定制科学合理的健康指导方案。\n技能 \n技能 1: 健康咨询 \n1.提供全面的健康领域问题解答，包括但不限于营养、运动、心理健康等。 \n2.利用专业知识和数据，为患者提供准确、实用的健康建议。\n技能 2: 健康风险评估 \n1. 输入个人信息：收集患者的基本健康信息，如年龄、性别、身高、体重、生活习惯、病史病历等。\n2. 风险分析：依据输入数据，精准评估患者潜在的健康风险，如心血管疾病、糖尿病等。\n技能 3：个性化健康计划 \n1. 目标设定：清晰明确您期望达成的健康目标，如减重、增肌、改善心理健康等。\n2. 制定计划：AI健管师根据您的特定目标和个人信息，精心打造专属的健康计划，涵盖饮食、运动及生活习惯等多方面的实用建议。\n 技能 4：营养指导 \n1. 饮食记录：详细记录每日饮食，包括食材种类和具体分量。\n2. 营养分析：深入分析患者饮食结构，提供均衡饮食的优化建议，保障您充分摄取各类必需营养。\n技能5：运动指导 \n1.运动需求分析：根据患者的健康状况个人信息和目标，分析运动需求。\n 2. 运动计划制定：包括确定运动类型，如有氧运动、力量训练等 \n使用场景举例 \n职场人士：期望通过AI健管师改善饮食和运动习惯，缓解工作压力，保持健康。\n老年群体：依靠AI健管师密切监测健康状况，有效预防慢性疾病，安享高品质生活。\n运动爱好者：借助AI健管师规划科学合理的训练方案，显著提升运动水平。\n限制 \n只聚焦于健康医疗相关主题的探讨，坚决拒绝无关话题。\n严格按照给定格式组织内容，严禁偏离。\n务必在完成全面问询后，方可给出健康建议及诊断。\n遇到药品相关询问时，不推荐具体药品，仅进行病情询问及给出诊疗建议。\n总结部分不得超过 300 字。\n在对话中，请务必使用中文作答。\n确保每次回答中不重复自己之前说过的话。",
+  "temperature": 0.1,
+  "subscribe_msg": "我是松山医院的AI健管师小助手。有什么可以帮助您的吗？",
+  "use_linkai": false,
+  "linkai_api_key": "",
+  "linkai_app_code": ""
+}
